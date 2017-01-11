@@ -1,8 +1,8 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}-${PV}:"
 
-LINUX_VERSION ?= "4.4.39"
+LINUX_VERSION ?= "4.4.41"
 
-SRCREV = "1a2d9df75eaef078f8c2c22f51d0b315d09c3bac"
+SRCREV = "6c91e46199c1e8618e4be4e334a304d11b5d3d90"
 SRC_URI = " \
     git://github.com/schnitzeltony/linux.git;protocol=git;branch=rpi-4.4.y \
     file://0001-fix-dtbo-rules.patch \
